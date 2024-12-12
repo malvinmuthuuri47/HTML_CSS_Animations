@@ -1,0 +1,283 @@
+:root {
+    --petal-bgcolor: rgb(237, 190, 4);
+    --disk-floret-color: rgb(239, 138, 6);
+    --petal-border-color: rgb(233, 227, 227);
+    --stem-bgcolor: rgb(12, 89, 3);
+    --ground-bgcolor: rgb(86, 38, 2);
+    --tank-bgcolor: rgb(107, 109, 109);
+    --water-bgcolor: rgb(0, 87, 248);
+    --pipe-bgcolor: rgb(177, 177, 177);
+}
+
+body {
+    background-color: rgb(53, 51, 51);
+    color: white;
+    text-align: center;
+}
+
+.circle {
+    border: 1px solid var(--petal-border-color);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 4px;
+    background-color: var(--disk-floret-color);
+    transform: scale(1.5) translate(150px, 50px);
+}
+
+.arc1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(250px, 107px) rotate(-45deg);
+}
+
+.arc2 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(280px, 52px) rotate(-56deg);
+}
+
+.arc3 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(310px, -12px) rotate(-68deg);
+}
+
+.arc4 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(335px, -80px) rotate(-85deg);
+}
+
+.arc5 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(352px, -160px) rotate(-100deg);
+}
+
+.arc6 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(364px, -242px) rotate(-124deg);
+}
+
+.arc7 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(365px, -324px) rotate(-140deg);
+}
+
+.arc8 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(360px, -405px) rotate(-156deg);
+}
+
+.arc9 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(344px, -484px) rotate(-164deg);
+}
+
+.arc10 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(322px, -559px) rotate(-185deg);
+}
+
+.arc11 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(295px, -625px) rotate(-200deg);
+}
+
+.arc12 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(265px, -685px) rotate(-220deg);
+}
+
+.arc13 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(235px, -735px) rotate(-240deg);
+}
+
+.arc14 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(205px, -776px) rotate(-265deg);
+}
+
+.arc15 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(179px, -805px) rotate(-295deg);
+}
+
+.arc16 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(156px, -830px) rotate(-305deg);
+}
+
+.arc17 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(145px, -850px) rotate(-320deg);
+}
+
+.arc18 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(144px, -868px) rotate(-336deg);
+}
+
+.arc19 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(152px, -888px) rotate(-355deg);
+}
+
+.arc20 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(170px, -912px) rotate(-370deg);
+}
+
+.arc21 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(198px, -945px) rotate(-395deg);
+}
+
+.arc22 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid var(--petal-border-color);
+    border-radius: 100% 0;
+    background-color: var(--petal-bgcolor);
+    transform: translate(222px, -984px) rotate(-405deg);
+}
+
+.stem {
+    height: 450px;
+    width: 20px;
+    border: 1px solid var(--petal-border-color);
+    background-color: var(--stem-bgcolor);
+    transform: translate(268px, -1120px);
+    position: relative;
+    z-index: -1;
+}
+
+.ground {
+    background-color: var(--ground-bgcolor);
+    height: 500px;
+    width: 1400px;
+    transform: translate(14px, -1150px);
+}
+
+.tank {
+    background-color: var(--tank-bgcolor);
+    height: 450px;
+    width: 300px;
+    transform: translate(1040px, -2100px);
+}
+
+.water {
+    background-color: var(--water-bgcolor);
+    height: 400px;
+    width: 300px;
+    transform: translate(0, 50px);
+}
+
+.pipe1 {
+    background-color: var(--pipe-bgcolor);
+    height: 100px;
+    width: 20px;
+    transform: translate(1040px, -2100px)
+}
+
+.pipe2 {
+    background-color: var(--pipe-bgcolor);
+    height: 20px;
+    width: 200px;
+    transform: translate(860px, -2100px);
+}
+
+.pipe3 {
+    background-color: var(--pipe-bgcolor);
+    height: 220px;
+    width: 20px;
+    transform: translate(840px, -2320px);
+}
+
+.pipe4 {
+    background-color: var(--pipe-bgcolor);
+    height: 20px;
+    width: 120px;
+    transform: translate(740px, -2540px)
+}
